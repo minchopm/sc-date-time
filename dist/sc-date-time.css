@@ -60,10 +60,11 @@
   height: 100%;
   cursor: pointer;
   -webkit-transition: color 0.6s ease-in-out;
-          transition: color 0.6s ease-in-out;
+  transition: color 0.6s ease-in-out;
 }
 .time-date > .display > .title {
-  background-color: #00796b;
+  background-color: rgb(0,131,143);
+  /*background-color: #00796b;*/
   color: #e1e1e1;
   line-height: 2.5rem;
 }
@@ -75,8 +76,10 @@
   top: 2.4rem;
   padding: 2.3rem 0;
   font-size: 1.5rem;
-  background-color: #009688;
-  color: #e1e1e1;
+  background-color: rgb(0,188,212);
+  /*background-color: #009688;*/
+  color: rgba(255,255,255,0.87);
+  /*color: #e1e1e1;*/
 }
 .time-date > .display > .content > .super-title {
   text-transform: uppercase;
@@ -108,7 +111,7 @@
   position: absolute !important;
   width: 200%;
   -webkit-transition: left 0.6s ease-in-out;
-          transition: left 0.6s ease-in-out;
+  transition: left 0.6s ease-in-out;
 }
 .time-date > .control > .slider > .date-control,
 .time-date > .control > .slider > .time-control,
@@ -201,12 +204,15 @@
 }
 .time-date > .control > .slider > .date-control > .days .day-cell.selected {
   color: #fff;
-  background-color: #009688;
+  background-color: rgb(0,188,212);
+  /*background-color: #009688;*/
 }
 .time-date > .control > .slider > .date-control > .days .day-cell:hover,
 .time-date > .control > .slider > .date-control > .days .day-cell:active {
-  color: #e6e6e6;
-  background-color: #00baa9;
+  color: rgba(255,255,255,0.87);
+  /*color: #e6e6e6;*/
+  background-color: #00a5ba;
+  /*background-color: rgb(132,255,255);*/
 }
 .time-date > .control > .slider > .date-control > .days .day-cell:disabled {
   color: #aaa;
@@ -348,7 +354,7 @@
   background-color: #009688;
 }
 .time-date.full-mode > .buttons > button {
-/* Invert colours for bottom bar */
+  /* Invert colours for bottom bar */
   color: #fff !important;
 }
 .time-date:not(.full-mode).compact {
@@ -371,7 +377,7 @@
   width: 100%;
   height: auto;
   -webkit-transition: color 0.6s ease-in-out, height 0.6s ease-in-out;
-          transition: color 0.6s ease-in-out, height 0.6s ease-in-out;
+  transition: color 0.6s ease-in-out, height 0.6s ease-in-out;
 }
 .time-date.vertical > .display > .content {
   position: relative;
@@ -419,7 +425,7 @@
     width: 100%;
     height: auto;
     -webkit-transition: color 0.6s ease-in-out, height 0.6s ease-in-out;
-            transition: color 0.6s ease-in-out, height 0.6s ease-in-out;
+    transition: color 0.6s ease-in-out, height 0.6s ease-in-out;
   }
   .time-date > .display > .content {
     position: relative;
